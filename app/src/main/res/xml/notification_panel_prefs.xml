@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/notification_panel_category_title" >
+       <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="true"
+        android:key="BLUR"
+        android:summaryOff="Disabled"
+        android:summaryOn="Enabled"
+        android:title="@string/blur_notification_panel_title" android:summary="@string/blur_notification_panel_summary"/>
+
+       <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        android:defaultValue="3"
+        android:key="BLUR_RADIUS"
+        android:title="@string/blur_radius"
+        app:maxValue="24"
+        app:minValue="1"
+        app:unitsValue=""/>
+
+       <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        android:defaultValue="165"
+        android:key="BLUR_ALPHA"
+        android:title="@string/blur_alpha"
+        app:maxValue="200"
+        app:minValue="1"
+        app:unitsValue=""/>
+    </PreferenceCategory>
+</PreferenceScreen>

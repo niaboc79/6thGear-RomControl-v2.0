@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Rom Control</string>
+    <string name="app_name">eXistenZ Settings</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -63,6 +63,64 @@
     <string name="reboot_now_dialog_button">reboot now</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
+    <string name="statusbar_category_title">Status bar</string>
+    <string name="statusbar_header_category_title">Status bar header</string>
+    <string name="notification_panel_category_title">Notification panel</string>
+    <string name="quick_settings_category_title">Quick settings</string>
+    <string name="blur_notification_panel_title">Blur notification panel</string>
+    <string name="blur_notification_panel_summary">The notification panel background will be blurred</string>
+    <string name="blur_radius">Blur radius</string>
+    <string name="blur_alpha">Blur alpha</string>
+    <string name="clock_date_category_title">Clock and date</string>
+    <string name="clock_title_enable">Alignment</string>
+    <string name="clock_status_bar_show_clock_title">Show clock and date</string>
+    <string name="clock_status_bar_am_pm_title">AM/PM</string>
+    <string name="clock_status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="clock_enable_clock_weekday">Day of the week</string>
+    <string name="clock_enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
+    <string name="clock_status_bar_clock_style_right">Right</string>
+    <string name="clock_status_bar_clock_style_left">Left</string>
+    <string name="clock_status_bar_clock_style_center">Center</string>
+    <string name="clock_status_bar_clock_style_hidden">Hidden</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="clock_am_pm_clock_normal">Normal font size</string>
+    <string name="clock_am_pm_clock_small">Small font size</string>
+    <string name="clock_am_pm_clock_none">"Don't show"</string>
+    <string name="clock_date_display_none">"Don't show"</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_status_bar_date_format_custom">Custom java format</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
+    <string name="network_traffic_show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="network_traffic_show_network_traffic_unit">Display unit</string>
+    <string name="network_traffic_show_network_traffic_frequency">Update interval</string>
+    <string name="network_traffic_show_network_traffic_disable">Disabled</string>
+    <string name="network_traffic_show_network_traffic_up">Outgoing</string>
+    <string name="network_traffic_show_network_traffic_down">Incoming</string>
+    <string name="network_traffic_show_network_traffic_all">Outgoing and incoming</string>
+    <string name="network_traffic_show_network_traffic_bit">Bits per second</string>
+    <string name="network_traffic_show_network_traffic_byte">Bytes per second</string>
+    <string name="network_traffic_show_network_traffic_500">500 ms</string>
+    <string name="network_traffic_show_network_traffic_1000">1000 ms</string>
+    <string name="network_traffic_show_network_traffic_1500">1500 ms</string>
+    <string name="network_traffic_show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_color_style">Color style</string>
+    <string name="network_traffic_color_reset">Reset color</string>
+    <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+    <string name="network_traffic_hide_arrow">Hide arrows</string>
+    <string name="network_traffic_hide_arrow_summary">Hide the traffic arrow indicator</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>
