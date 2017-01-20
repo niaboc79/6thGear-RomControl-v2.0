@@ -19,4 +19,5 @@
 	<color name="darkBgColor">#0c0c0d</color>
 	<color name="nav_drawer_default_color">?android:textColorPrimary</color>
 	<drawable name="transparentBg">#0000</drawable>
+	<color name="colorTextHyperlink">#4285f4</color>
 </resources>

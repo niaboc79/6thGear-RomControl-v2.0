@@ -90,14 +90,14 @@
         <item>@string/clock_status_bar_clock_style_left</item>
     </string-array>
     <string-array name="status_bar_clock_style_values">
-        <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="entries_status_bar_am_pm">
-        <item>@string/clock_am_pm_clock_none</item>
-        <item>@string/clock_am_pm_clock_small</item>
         <item>@string/clock_am_pm_clock_normal</item>
+        <item>@string/clock_am_pm_clock_small</item>
+        <item>@string/clock_am_pm_clock_none</item>
     </string-array>
     <string-array name="values_status_bar_am_pm">
         <item>0</item>
@@ -143,7 +143,68 @@
         <item>EEE MMMM dd</item>
         <item>EEEE dd/MM</item>
         <item>EEEE MM/dd</item>
-        <item>dd</item>
+    </string-array>
+    <string-array name="clock_font_style_entries">
+        <item>@string/clock_font_normal</item>
+        <item>@string/clock_font_italic</item>
+        <item>@string/clock_font_bold</item>
+        <item>@string/clock_font_bold_italic</item>
+        <item>@string/clock_font_light</item>
+        <item>@string/clock_font_light_italic</item>
+        <item>@string/clock_font_thin</item>
+        <item>@string/clock_font_thin_italic</item>
+        <item>@string/clock_font_condensed</item>
+        <item>@string/clock_font_condensed_italic</item>
+        <item>@string/clock_font_condensed_light</item>
+        <item>@string/clock_font_condensed_light_italic</item>
+        <item>@string/clock_font_condensed_bold</item>
+        <item>@string/clock_font_condensed_bold_italic</item>
+        <item>@string/clock_font_medium</item>
+        <item>@string/clock_font_medium_italic</item>
+        <item>@string/clock_font_black</item>
+        <item>@string/clock_font_black_italic</item>
+        <item>@string/clock_font_dancingscript</item>
+        <item>@string/clock_font_dancingscript_bold</item>
+        <item>@string/clock_font_comingsoon</item>
+        <item>@string/clock_font_notoserif</item>
+        <item>@string/clock_font_notoserif_italic</item>
+        <item>@string/clock_font_notoserif_bold</item>
+        <item>@string/clock_font_notoserif_bold_italic</item>
+    </string-array>
+    <string-array name="clock_font_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="clock_date_position_entries">
+        <item>@string/clock_date_left</item>
+        <item>@string/clock_date_right</item>
+    </string-array>
+    <string-array name="clock_date_position_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
 
     <string-array name="show_network_traffic_state_entries">
@@ -177,5 +238,189 @@
         <item>1000</item>
         <item>1500</item>
         <item>2000</item>
+    </string-array>
+    <string-array name="show_network_traffic_arrow_position_entries">
+        <item>@string/network_traffic_arrow_postion_end</item>
+        <item>@string/network_traffic_arrow_postion_start</item>
+    </string-array>
+    <string-array name="show_network_traffic_arrow_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="show_network_traffic_style_entries">
+        <item>@string/clock_font_normal</item>
+        <item>@string/clock_font_bold</item>
+        <item>@string/clock_font_italic</item>
+        <item>@string/clock_font_bold_italic</item>
+    </string-array>
+    <string-array name="show_network_traffic_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="status_bar_battery_style_entries">
+        <item>@string/status_bar_battery_style_icon_portrait</item>
+        <item>@string/status_bar_battery_style_solid</item>
+        <item>@string/status_bar_battery_style_circle</item>
+        <item>@string/status_bar_battery_style_hidden</item>
+        <item>@string/status_bar_battery_style_icon_landscape</item>
+        <item>@string/status_bar_battery_style_text</item>
+    </string-array>
+    <string-array name="status_bar_battery_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="status_bar_battery_percentage_entries">
+        <item>@string/status_bar_battery_percentage_default</item>
+        <item>@string/status_bar_battery_percentage_text_inside</item>
+        <item>@string/status_bar_battery_percentage_text_next</item>
+    </string-array>
+    <string-array name="status_bar_battery_percentage_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="text_charging_symbol_entries">
+        <item>@string/text_charging_symbol_default</item>
+        <item>@string/text_charging_symbol_flash</item>
+        <item>@string/text_charging_symbol_tilde</item>
+    </string-array>
+    <string-array name="text_charging_symbol_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="status_bar_weather_font_style_entries">
+        <item>@string/status_bar_weather_font_normal</item>
+        <item>@string/status_bar_weather_font_italic</item>
+        <item>@string/status_bar_weather_font_bold</item>
+        <item>@string/status_bar_weather_font_bold_italic</item>
+        <item>@string/status_bar_weather_font_light</item>
+        <item>@string/status_bar_weather_font_light_italic</item>
+        <item>@string/status_bar_weather_font_thin</item>
+        <item>@string/status_bar_weather_font_thin_italic</item>
+        <item>@string/status_bar_weather_font_condensed</item>
+        <item>@string/status_bar_weather_font_condensed_italic</item>
+        <item>@string/status_bar_weather_font_condensed_light</item>
+        <item>@string/status_bar_weather_font_condensed_light_italic</item>
+        <item>@string/status_bar_weather_font_condensed_bold</item>
+        <item>@string/status_bar_weather_font_condensed_bold_italic</item>
+        <item>@string/status_bar_weather_font_medium</item>
+        <item>@string/status_bar_weather_font_medium_italic</item>
+        <item>@string/status_bar_weather_font_black</item>
+        <item>@string/status_bar_weather_font_black_italic</item>
+        <item>@string/status_bar_weather_font_dancingscript</item>
+        <item>@string/status_bar_weather_font_dancingscript_bold</item>
+        <item>@string/status_bar_weather_font_comingsoon</item>
+        <item>@string/status_bar_weather_font_notoserif</item>
+        <item>@string/status_bar_weather_font_notoserif_italic</item>
+        <item>@string/status_bar_weather_font_notoserif_bold</item>
+        <item>@string/status_bar_weather_font_notoserif_bold_italic</item>
+    </string-array>
+    <string-array name="status_bar_weather_font_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="heads_up_time_out_entries">
+        <item>@string/heads_up_time_out_2sec</item>
+        <item>@string/heads_up_time_out_4sec</item>
+        <item>@string/heads_up_time_out_5sec</item>
+        <item>@string/heads_up_time_out_6sec</item>
+        <item>@string/heads_up_time_out_8sec</item>
+        <item>@string/heads_up_time_out_10sec</item>
+    </string-array>
+    <string-array name="heads_up_time_out_values">
+        <item>2000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>8000</item>
+        <item>10000</item>
+    </string-array>
+    <string-array name="heads_up_snooze_entries">
+        <item>@string/heads_up_disabled</item>
+        <item>@string/heads_up_snooze_1min</item>
+        <item>@string/heads_up_snooze_3min</item>
+        <item>@string/heads_up_snooze_5min</item>
+        <item>@string/heads_up_snooze_10min</item>
+        <item>@string/heads_up_snooze_15min</item>
+        <item>@string/heads_up_snooze_20min</item>
+    </string-array>
+    <string-array name="heads_up_snooze_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>180000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+    </string-array>
+    <string-array name="lock_clock_fonts_entries">
+        <item>@string/lock_clock_font_stock</item>
+        <item>@string/lock_clock_font_bold</item>
+        <item>@string/lock_clock_font_italic</item>
+        <item>@string/lock_clock_font_bold_italic</item>
+        <item>@string/lock_clock_font_light</item>
+        <item>@string/lock_clock_font_light_italic</item>
+        <item>@string/lock_clock_font_thin</item>
+        <item>@string/lock_clock_font_thin_italic</item>
+        <item>@string/lock_clock_font_condensed_normal</item>
+        <item>@string/lock_clock_font_condensed_italic</item>
+        <item>@string/lock_clock_font_condensed_bold</item>
+        <item>@string/lock_clock_font_condensed_bold_italic</item>
+        <item>@string/lock_clock_font_medium_normal</item>
+        <item>@string/lock_clock_font_medium_italic</item>
+    </string-array>
+    <string-array name="lock_clock_fonts_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <string-array name="screenshot_type_entries">
+        <item>@string/screenshot_type_fullscreen</item>
+        <item>@string/screenshot_type_partial</item>
+    </string-array>
+    <string-array name="screenshot_type_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
 </resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/navigation_bar_category_title">
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="false"
+        android:key="navigation_bar_menu_arrow_keys"
+        android:title="@string/navigation_bar_arrow_keys_title"
+        android:summary="@string/navigation_bar_arrow_keys_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/volume_button_title">
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="true"
+        android:key="volbtn_music_controls"
+        android:title="@string/volume_rocker_music_control"
+        android:summary="@string/volume_rocker_music_control_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

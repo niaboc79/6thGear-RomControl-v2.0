@@ -26,10 +26,9 @@
     <array name="nav_menu_prefs_drawables">
         <item>@drawable/ic_settings_exz_statusbar</item>
         <item>@drawable/ic_settings_exz_statusbar_header</item>
-        <item>@drawable/ic_system_ui</item>
-        <item>@drawable/ic_phone</item>
+        <item>@drawable/ic_settings_exz_lockscreen</item>
+        <item>@drawable/ic_settings_exz_navbar</item>
         <item>@drawable/ic_framework</item>
-        <item>@drawable/ic_notification_panel</item>
     </array>
 
 
@@ -39,10 +38,9 @@
     <string-array name="nav_menu_prefs_titles">
         <item>@string/statusbar_category_title</item>
         <item>@string/notification_panel_category_title</item>
-        <item>@string/systemui_prefs</item>
-        <item>@string/phone_prefs</item>
+        <item>@string/lockscreen_category_title</item>
+        <item>@string/buttons_category_title</item>
         <item>@string/framework_prefs</item>
-        <item>@string/notification_panel_prefs</item>
     </string-array>
 
 
@@ -53,9 +51,8 @@
     <string-array name="nav_menu_xml_file_names" translatable="false">
         <item>statusbar_prefs</item>
         <item>notification_panel_prefs</item>
-        <item>ui_prefs</item>
-        <item>phone_prefs</item>
+        <item>lockscreen_prefs</item>
+        <item>navigationbar_prefs</item>
         <item>framework_prefs</item>
-        <item>notification_panel_prefs</item>
     </string-array>
 </resources>
